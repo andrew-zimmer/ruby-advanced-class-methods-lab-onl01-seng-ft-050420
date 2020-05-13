@@ -49,7 +49,7 @@ class Song
     split_array = name.split("-")
     song = self.new 
     song.name = split_array[1].strip 
-    song.artist_name = split_array[1].strip
+    song.artist_name = split_array[0].strip
   end 
 
 end
