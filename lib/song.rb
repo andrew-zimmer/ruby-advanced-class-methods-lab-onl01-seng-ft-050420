@@ -50,5 +50,6 @@ class Song
     song = self.new 
     song.name = split_array[0] 
     song.artist_name = split_array[1]
+  end 
 
 end
