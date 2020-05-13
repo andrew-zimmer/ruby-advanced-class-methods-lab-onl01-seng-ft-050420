@@ -52,5 +52,9 @@ class Song
     song.artist_name = split_array[0]
     song
   end 
+  
+  def self.create_from_filename(name)
+    self.all << new_from_filename(name)
+  end 
 
 end
